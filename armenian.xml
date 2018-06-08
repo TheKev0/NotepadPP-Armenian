@@ -9,7 +9,7 @@
 						<!--Alternatives: Ֆայլ -->
                     <Item menuId="edit" name="&amp;Խմբագրել"/>
                     <Item menuId="search" name="&amp;Փնտրել"/>
-                    <Item menuId="view" name="&amp;Տեսք"/>
+                    <Item menuId="view" name="&amp;"/>
                     <Item menuId="encoding" name="&amp;կոդավորում"/>
                     <Item menuId="language" name="&amp;Լեզու"/>
                     <Item menuId="settings" name="Կար&amp;գավորւմներ"/>
@@ -22,12 +22,13 @@
                 <!-- Sub Menu Entries -->
                 <SubEntries>
                     <Item subMenuId="file-openFolder" name="Բացել Պարունակող Պանակը"/>
-                    <Item subMenuId="file-closeMore" name="Close More"/>
-                    <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
+                    <Item subMenuId="file-closeMore" name="Փակել Այլն"/>
+					<Item subMenuId="file-recentFiles" name="&amp;Նախորդ Նիշքեր"/>
+					<!--Alternatives: &amp;Վերջին Նիշքեր -->
                     <Item subMenuId="edit-copyToClipboard"  name="Copy to Clipboard"/>
-                    <Item subMenuId="edit-indent" name="Indent"/>
+                    <Item subMenuId="edit-indent" name="Տողագլուխ"/>
                     <Item subMenuId="edit-convertCaseTo" name="Convert Case to"/>
-                    <Item subMenuId="edit-lineOperations" name="Line Operations"/>
+                    <Item subMenuId="edit-lineOperations" name="Տողի Գործողություներ"/>
                     <Item subMenuId="edit-comment" name="Comment/Uncomment"/>
                     <Item subMenuId="edit-autoCompletion" name="Auto-Completion"/>
                     <Item subMenuId="edit-eolConversion" name="EOL Conversion"/>
@@ -47,13 +48,13 @@
                     <Item subMenuId="view-uncollapseLevel" name="Uncollapse Level"/>
                     <Item subMenuId="view-project" name="Project"/>
                     <Item subMenuId="encoding-characterSets"  name="Character Set"/>
-                    <Item subMenuId="encoding-arabic"  name="Arabic"/>
-                    <Item subMenuId="encoding-baltic"  name="Baltic"/>
-                    <Item subMenuId="encoding-celtic"  name="Celtic"/>
+                    <Item subMenuId="encoding-arabic"  name="Արաբական"/>
+                    <Item subMenuId="encoding-baltic"  name="Բալթիկ"/>
+                    <Item subMenuId="encoding-celtic"  name="Կելտական"/>
                     <Item subMenuId="encoding-cyrillic"  name="Cyrillic"/>
-                    <Item subMenuId="encoding-centralEuropean"  name="Central European"/>
-                    <Item subMenuId="encoding-chinese"  name="Chinese"/>
-                    <Item subMenuId="encoding-easternEuropean"  name="Eastern European"/>
+                    <Item subMenuId="encoding-centralEuropean"  name="Միչին Եվրոպական"/>
+                    <Item subMenuId="encoding-chinese"  name="Չինական"/>
+                    <Item subMenuId="encoding-easternEuropean"  name="Ար European"/>
                     <Item subMenuId="encoding-greek"  name="Greek"/>
                     <Item subMenuId="encoding-hebrew"  name="Hebrew"/>
                     <Item subMenuId="encoding-japanese"  name="Japanese"/>
