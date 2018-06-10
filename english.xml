@@ -1,60 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="Հայերեն" filename="armenian.xml" version="7.5.5">
+    <Native-Langue name="English" filename="english.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="&amp;Նիշք"/>
-						<!--Alternatives: Ֆայլ -->
-                    <Item menuId="edit" name="&amp;Խմբագրել"/>
-                    <Item menuId="search" name="&amp;Փնտրել"/>
-                    <Item menuId="view" name="&amp;Տեսկ"/>
-                    <Item menuId="encoding" name="&amp;կոդավորում"/>
-                    <Item menuId="language" name="&amp;Լեզու"/>
-                    <Item menuId="settings" name="Կար&amp;գավորւմներ"/>
-                    <Item menuId="tools" name="&amp;Գործիքներ"/>
-                    <Item menuId="macro" name="&amp;Մանրածրագիր"/>
-                    <Item menuId="run" name="&amp;Աշխատեզնել"/>
-                    <Item idName="Plugins" name="&amp;Հավելուներ"/>
-                    <Item idName="Window" name="&amp;Պատուհան"/>
+                    <Item menuId="file" name="&amp;File"/>
+                    <Item menuId="edit" name="&amp;Edit"/>
+                    <Item menuId="search" name="&amp;Search"/>
+                    <Item menuId="view" name="&amp;View"/>
+                    <Item menuId="encoding" name="E&amp;ncoding"/>
+                    <Item menuId="language" name="&amp;Language"/>
+                    <Item menuId="settings" name="Se&amp;ttings"/>
+                    <Item menuId="tools" name="To&amp;ols"/>
+                    <Item menuId="macro" name="&amp;Macro"/>
+                    <Item menuId="run" name="&amp;Run"/>
+                    <Item idName="Plugins" name="&amp;Plugins"/>
+                    <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-openFolder" name="Բացել Պարունակող Պանակը"/>
-                    <Item subMenuId="file-closeMore" name="Փակել Այլն"/>
-					<Item subMenuId="file-recentFiles" name="&amp;Նախորդ Նիշքեր"/>
-					<!--Alternatives: &amp;Վերջին Նիշքեր -->
-                    <Item subMenuId="edit-copyToClipboard"  name="Պատձենել գզրոցին"/>
-                    <Item subMenuId="edit-indent" name="Տողագլուխ"/>
-                    <Item subMenuId="edit-convertCaseTo" name="Փոխել Տարաշարը"/>
-                    <Item subMenuId="edit-lineOperations" name="Տողի Գործողություներ"/>
-                    <Item subMenuId="edit-comment" name="Դիտողությամբ Հէրացնել/Գործադրել"/>
-                    <Item subMenuId="edit-autoCompletion" name="Ինքնալրացում"/>
-                    <Item subMenuId="edit-eolConversion" name="Փոխել Տողի Վերչավորման կոդը (EOL)"/>
-                    <Item subMenuId="edit-blankOperations" name="Բացատ Գրանիշների (whitespace) Գործողություներ"/>
-                    <Item subMenuId="edit-pasteSpecial" name="Փաքցնել Այլն"/>
-                    <Item subMenuId="edit-onSelection" name="Ընտրվացքին Վերաբերյալ"/>
-                    <Item subMenuId="search-markAll" name="Նշել Բոլորը"/>
-                    <Item subMenuId="search-unmarkAll" name="Ջնջել Բոլոր Նիշերը"/>
-                    <Item subMenuId="search-jumpUp" name="Ցատկել Հետ"/>
-                    <Item subMenuId="search-jumpDown" name="Ցատկել Առաջ"/>
-                    <Item subMenuId="search-bookmark" name="էջանիշ"/>
-                    <Item subMenuId="view-showSymbol"  name="Ցույց Տալ Գրանիշները"/>
-                    <Item subMenuId="view-zoom"  name="Տպագիրի Չափը"/>
-                    <Item subMenuId="view-moveCloneDocument"  name="Շարժել/Կրկնօրինակել Փաստաթուխտը"/>
-                    <Item subMenuId="view-tab"  name="Թերթիկ"/>
+                    <Item subMenuId="file-openFolder" name="Open Containing Folder"/>
+                    <Item subMenuId="file-closeMore" name="Close More"/>
+                    <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
+                    <Item subMenuId="edit-copyToClipboard"  name="Copy to Clipboard"/>
+                    <Item subMenuId="edit-indent" name="Indent"/>
+                    <Item subMenuId="edit-convertCaseTo" name="Convert Case to"/>
+                    <Item subMenuId="edit-lineOperations" name="Line Operations"/>
+                    <Item subMenuId="edit-comment" name="Comment/Uncomment"/>
+                    <Item subMenuId="edit-autoCompletion" name="Auto-Completion"/>
+                    <Item subMenuId="edit-eolConversion" name="EOL Conversion"/>
+                    <Item subMenuId="edit-blankOperations" name="Blank Operations"/>
+                    <Item subMenuId="edit-pasteSpecial" name="Paste Special"/>
+                    <Item subMenuId="edit-onSelection" name="On Selection"/>
+                    <Item subMenuId="search-markAll" name="Mark All"/>
+                    <Item subMenuId="search-unmarkAll" name="Unmark All"/>
+                    <Item subMenuId="search-jumpUp" name="Jump Up"/>
+                    <Item subMenuId="search-jumpDown" name="Jump Down"/>
+                    <Item subMenuId="search-bookmark" name="Bookmark"/>
+                    <Item subMenuId="view-showSymbol"  name="Show Symbol"/>
+                    <Item subMenuId="view-zoom"  name="Zoom"/>
+                    <Item subMenuId="view-moveCloneDocument"  name="Move/Clone Current Document"/>
+                    <Item subMenuId="view-tab"  name="Tab"/>
                     <Item subMenuId="view-collapseLevel" name="Collapse Level"/>
                     <Item subMenuId="view-uncollapseLevel" name="Uncollapse Level"/>
                     <Item subMenuId="view-project" name="Project"/>
                     <Item subMenuId="encoding-characterSets"  name="Character Set"/>
-                    <Item subMenuId="encoding-arabic"  name="Արաբական"/>
-                    <Item subMenuId="encoding-baltic"  name="Բալթիկ"/>
-                    <Item subMenuId="encoding-celtic"  name="Կելտական"/>
+                    <Item subMenuId="encoding-arabic"  name="Arabic"/>
+                    <Item subMenuId="encoding-baltic"  name="Baltic"/>
+                    <Item subMenuId="encoding-celtic"  name="Celtic"/>
                     <Item subMenuId="encoding-cyrillic"  name="Cyrillic"/>
-                    <Item subMenuId="encoding-centralEuropean"  name="Միչին Եվրոպական"/>
-                    <Item subMenuId="encoding-chinese"  name="Չինական"/>
-                    <Item subMenuId="encoding-easternEuropean"  name="European"/>
+                    <Item subMenuId="encoding-centralEuropean"  name="Central European"/>
+                    <Item subMenuId="encoding-chinese"  name="Chinese"/>
+                    <Item subMenuId="encoding-easternEuropean"  name="Eastern European"/>
                     <Item subMenuId="encoding-greek"  name="Greek"/>
                     <Item subMenuId="encoding-hebrew"  name="Hebrew"/>
                     <Item subMenuId="encoding-japanese"  name="Japanese"/>
